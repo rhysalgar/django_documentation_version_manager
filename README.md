@@ -10,4 +10,4 @@ This Chrome extension allows you to select a version of Django, and whenever you
 
 ##  How to use
 
-Click on the extension button and choose you version of Django. It's that simple
+Click on the extension button and choose your version of Django. It's that simple
