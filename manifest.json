@@ -1,7 +1,7 @@
 {
   "name": "Django Documentation Version Manager",
   "version": "0.1",
-  "description": "This extension automatically switches the version of Django you are looking at documentation for when you visit the Django Documentation website.",
+  "description": "Automatically switch version of the Official Django Documentation website.",
   "permissions": [
     "declarativeContent",
     "storage",
