@@ -3,7 +3,11 @@
   "version": "1.0",
   "description": "This extension automatically switches the version of Django you are looking at documentation for when you visit the Django Documentation website.",
   "permissions": [
-    "declarativeContent", "storage", "webRequest", "webRequestBlocking", "https://docs.djangoproject.com/"
+    "declarativeContent",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "https://docs.djangoproject.com/"
   ],
   "background": {
     "scripts": [
@@ -11,7 +15,19 @@
     ]
   },
   "page_action": {
-    "default_popup": "src/popup.html"
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "images/django_16.png",
+      "32": "images/django_32.png",
+      "48": "images/django_48.png",
+      "128": "images/django_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/django_16.png",
+    "32": "images/django_32.png",
+    "48": "images/django_48.png",
+    "128": "images/django_128.png"
   },
   "manifest_version": 2
 }

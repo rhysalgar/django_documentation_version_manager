@@ -25,7 +25,7 @@ chrome.webRequest.onBeforeRequest.addListener(
         urls: [
             "*://docs.djangoproject.com/*",
         ],
-        types: ["main_frame", "sub_frame", "stylesheet", "script", "image", "object", "xmlhttprequest", "other"]
+        types: ["main_frame"]
     },
     ["blocking"]
 );
